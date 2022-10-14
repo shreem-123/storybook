@@ -137,7 +137,7 @@ const runGenerators = async (
 
         const createBeforeDir = join(createBaseDir, BEFORE_DIR_NAME);
         const scriptWithBeforeDir = script.replace('{{beforeDir}}', createBeforeDir);
-        await runCommand(scriptWithBeforeDir, { cwd: createBaseDir });
+        await runCommand(scriptWithBeforeDir, { cwd: createBaseDir, timeout: 5 * 60 * 1000 });
 
         await localizeYarnConfigFiles(createBaseDir, createBeforeDir);
 
