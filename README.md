@@ -68,7 +68,7 @@ Storybook is a frontend workshop for building UI components and pages in isolati
 
 ## Getting Started
 
-Visit [Storybook's website](https://storybook.js.org) to learn more about Storybook and to get started.
+Visit [Storybook's website](https://storybook.js.org) to learn more about Storybook and get started.
 
 ### Documentation
 
